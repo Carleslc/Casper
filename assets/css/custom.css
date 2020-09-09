@@ -1,0 +1,113 @@
+@import url(subscribe-form.css);
+@import url(buttons.css);
+
+/* TEXT */
+
+.post-content p {
+  text-align: justify;
+}
+
+.post-content em,
+.post-content strong {
+  color: inherit;
+}
+
+p.center,
+a.center {
+  text-align: center;
+  width: 100%;
+}
+
+/* CODE */
+
+pre[class*=language-] {
+  margin-top: -0.25em;
+  margin-bottom: 1.75em;
+  font-size: 1.5rem;
+}
+
+div.code-toolbar {
+  width: 100%;
+}
+
+div.code-toolbar > .toolbar {
+  top: 2px;
+  right: 14px;
+}
+
+/* IMAGES */
+
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+img.inline, img[src$='#inline'] {
+  display: initial;
+  max-width: initial;
+  height: initial;
+  padding: initial;
+  position: initial;
+  left: initial;
+  margin: auto;
+  -webkit-transform: initial;
+  -ms-transform: initial;
+  transform: initial;
+}
+
+@media (min-width: 600px) {
+  img[align] {
+    margin: auto;
+  }
+  
+  img[align='left'] {
+    margin-right: 16px;
+  }
+  
+  img[align='right'] {
+    margin-left: 16px;
+  }
+}
+
+.post-content p > img {
+  max-width: 100%;
+}
+
+.post-content img,
+.post-full-image img {
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
+.post-full-image {
+  background: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .post-full-image {
+    background-color: inherit;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .post-content img.image {
+    width: initial;
+  }
+}
+
+/* MARGIN */
+
+.mr-xs {
+  margin-right: 8px;
+}
+
+.post-content > a {
+  margin: 0 0 2em;
+}
+
+.post-full-content {
+  padding-bottom: 0;
+}

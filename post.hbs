@@ -74,14 +74,16 @@ into the {body} of the default.hbs template --}}
                         <section class="post-full-byline-meta">
                             <h4 class="author-name">{{authors}}</h4>
                             <div class="byline-meta-content">
-                                <time class="byline-meta-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
-                                <span class="byline-reading-time"><span class="bull">&bull;</span> {{reading_time}}</span>
+                                <i class="far fa-calendar mr-xs"></i><time class="byline-meta-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
+                                <!-- <time class="byline-meta-date" datetime="{{date updated_at format="YYYY-MM-DD"}}">{{date updated_at format="D MMM YYYY"}}</time> -->
+                                <span class="byline-reading-time">
+                                    <span class="bull">&bull;</span>
+                                    <i class="far fa-clock mr-xs"></i>{{reading_time}}
+                                </span>
                             </div>
                         </section>
 
                     </section>
-
-
                 </div>
             </header>
 
