@@ -10,8 +10,11 @@ If you're just looking to download the latest release, head over to the [release
 
 - Added code syntax highlighting (prism-okaidia + copy-to-clipboard)
 - Added font awesome icons (v5)
+- Added reading progress bar
+- Added spanish translation (i18n)
 - Added `inline` class for inline images
 - Added margin for `align="left"` and `align="right"` images
+- Added `info`, `success`, `warn`, `danger` classes for alert boxes (`blockquote`)
 - Post text is justified
 - Minor style improvements
 

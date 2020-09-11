@@ -28,42 +28,42 @@ a.center {
   border-radius: .3em;
 }
 
-.post-content .info blockquote {
+.post-content blockquote.info {
   border-left-color: #3eb0ef;
   background-color: aliceblue;
 }
 
-.info a:hover {
+blockquote.info a:hover {
   color: #316878;
   box-shadow: #316878 0 -1px 0 inset;
 }
 
-.post-content .success blockquote {
+.post-content blockquote.success {
   border-left-color: lightgreen;
   background-color: #eff9ef;
 }
 
-.success a:hover {
+blockquote.success a:hover {
   color: #3b763b;
   box-shadow: #3b763b 0 -1px 0 inset;
 }
 
-.post-content .warning blockquote {
+.post-content blockquote.warning {
   border-left-color: #ffa5007f;
   background-color: #fef4e6;
 }
 
-.warning a:hover {
+blockquote.warning a:hover {
   color: #955904;
   box-shadow: #955904 0 -1px 0 inset;
 }
 
-.post-content .danger blockquote {
+.post-content blockquote.danger {
   border-left-color: #ee5f5b;
   background-color: #fdefef;
 }
 
-.danger a:hover {
+blockquote.danger a:hover {
   color: #8f3937;
   box-shadow: #8f3937 0 -1px 0 inset;
 }
@@ -81,7 +81,7 @@ progress.reading-progress-bar {
 }
 
 progress.reading-progress-bar[value]::-webkit-progress-bar {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 progress.reading-progress-bar[value]::-webkit-progress-value {
