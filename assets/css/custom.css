@@ -35,6 +35,7 @@ a.center {
 
 .info a:hover {
   color: #316878;
+  box-shadow: #316878 0 -1px 0 inset;
 }
 
 .post-content .success blockquote {
@@ -44,6 +45,7 @@ a.center {
 
 .success a:hover {
   color: #3b763b;
+  box-shadow: #3b763b 0 -1px 0 inset;
 }
 
 .post-content .warning blockquote {
@@ -53,6 +55,7 @@ a.center {
 
 .warning a:hover {
   color: #955904;
+  box-shadow: #955904 0 -1px 0 inset;
 }
 
 .post-content .danger blockquote {
@@ -62,6 +65,7 @@ a.center {
 
 .danger a:hover {
   color: #8f3937;
+  box-shadow: #8f3937 0 -1px 0 inset;
 }
 
 /* CODE */
