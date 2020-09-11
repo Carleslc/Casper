@@ -68,6 +68,26 @@ a.center {
   box-shadow: #8f3937 0 -1px 0 inset;
 }
 
+/* PROGRESS BAR */
+
+progress.reading-progress-bar {
+  -webkit-appearance: none;
+  appearance: none;
+  z-index: 1000;
+  position: fixed;
+  top: 64px;
+  width: 100%;
+  height: 5px;
+}
+
+progress.reading-progress-bar[value]::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress.reading-progress-bar[value]::-webkit-progress-value {
+  background-color: var(--midgrey);
+}
+
 /* CODE */
 
 pre[class*=language-] {
@@ -160,4 +180,8 @@ img.inline, img[src$='#inline'] {
 
 .post-full-content {
   padding-bottom: 0;
+}
+
+.post-card {
+  border-bottom: none;
 }
