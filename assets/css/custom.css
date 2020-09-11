@@ -81,7 +81,7 @@ progress.reading-progress-bar {
 }
 
 progress.reading-progress-bar[value]::-webkit-progress-bar {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
 }
 
 progress.reading-progress-bar[value]::-webkit-progress-value {
