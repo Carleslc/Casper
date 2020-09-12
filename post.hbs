@@ -111,18 +111,21 @@ into the {body} of the default.hbs template --}}
                 <div class="post-content">
                     {{content}}
                 </div>
+
+                {{> social-share}}
+
+                {{!--
+                <section class="post-full-comments">
+                    <hr />
+                    <h2>Comment</h2>
+                </section>
+                --}}
             </section>
 
             {{!-- Email subscribe form at the bottom of the page --}}
             {{#if @labs.members}}
                 {{> subscribe-form}}
             {{/if}}
-
-            {{!--
-            <section class="post-full-comments">
-                If you want to embed comments, this is a good place to do it!
-            </section>
-            --}}
 
         </article>
 

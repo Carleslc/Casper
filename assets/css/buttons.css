@@ -1,15 +1,19 @@
-.post-content a.btn {
+.post-content a.btn,
+.post-share a.btn {
   box-shadow: none;
 }
-.btn,
-#goog-wm-sb {
+.post-share a.btn .svg-inline--fa,
+.post-share a.btn:not(:last-child) {
+  margin-right: 8px;
+}
+.btn {
   display: inline-block;
   margin-bottom: 0.25em;
-  padding: 0.5em 1em;
+  padding: 0.5em 1.25em;
   color: #fff !important;
   font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
     "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
+  font-size: 0.85em;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -18,16 +22,13 @@
   border-radius: 4px;
   cursor: pointer;
 }
-.btn:hover,
-#goog-wm-sb:hover {
+.btn:hover {
   background-color: #333;
 }
-.btn .icon,
-#goog-wm-sb .icon {
+.btn .icon {
   margin-right: 0.5em;
 }
-.btn .icon + .hidden,
-#goog-wm-sb .icon + .hidden {
+.btn .icon + .hidden {
   margin-left: -0.5em;
 }
 .btn--block {
@@ -93,24 +94,9 @@
 .btn--twitter:hover {
   background-color: #448abe;
 }
-.btn--google-plus {
-  background-color: #dd4b39;
-}
-.btn--google-plus:hover {
-  background-color: #b13c2e;
-}
 .btn--linkedin {
   background-color: #007bb6;
 }
 .btn--linkedin:hover {
   background-color: #006292;
-}
-.btn--x-large {
-  font-size: 1.25em;
-}
-.btn--large {
-  font-size: 1em;
-}
-.btn--small {
-  font-size: 0.6875em;
 }

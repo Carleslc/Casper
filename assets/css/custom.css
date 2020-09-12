@@ -182,6 +182,19 @@ img.inline, img[src$='#inline'] {
   padding-bottom: 0;
 }
 
+.post-share h2 {
+  margin-bottom: 0.75em;
+}
+
 .post-card {
   border-bottom: none;
+}
+
+.footnotes,
+.footnotes .footnotes-list {
+  margin: 0;
+}
+
+.post-full-content hr {
+  margin: 1.5em 0;
 }
