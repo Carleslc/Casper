@@ -12,6 +12,7 @@ If you're just looking to download the latest release, head over to the [release
 - Added font awesome icons (v5)
 - Added reading progress bar
 - Added spanish translation (i18n)
+- Added share social buttons (Twitter, Facebook, LinkedIn)
 - Added `inline` class for inline images
 - Added margin for `align="left"` and `align="right"` images
 - Added `info`, `success`, `warn`, `danger` classes for alert boxes (`blockquote`)
